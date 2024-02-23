@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="wrap">
+      <UniqueIdentifier>{2210cc97-26fd-4c01-a00c-019f59c9211e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wrap\win">
+      <UniqueIdentifier>{617e1cbf-4b17-4b93-bef8-fbef871ab8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{e2d5be49-e68e-4a83-8098-34ffcd4690f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{89c6443c-9365-40f9-a758-445b4830b33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{d03c1580-4b1b-4381-a2ae-6ae352ce48df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod">
+      <UniqueIdentifier>{e8aa2f0a-0d6e-4a2a-980f-575e504e5de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{90a17332-279a-4a6d-993b-c659da22958e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{08e899c5-c06e-423e-ab5c-556a686bccc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{f3cb8f8b-e0f5-4733-b813-f701ed16291c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{7f909bfb-437d-4956-aecc-e2ab0f94fcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{e58568f2-b0cb-4d06-be07-d084e5a81be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hit">
+      <UniqueIdentifier>{d357f8a6-568f-4e01-ad94-d91691debabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="record">
+      <UniqueIdentifier>{640ef240-44d6-4558-93d7-422ac4046676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua\debuglib">
+      <UniqueIdentifier>{2f1eb8c4-a12d-46db-a578-c6483ace6d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flag">
+      <UniqueIdentifier>{86ff48a3-d8e6-42bb-940f-97f7267fe2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{c6e6cf2d-6594-43cd-b43f-72be8c9f511d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="path">
+      <UniqueIdentifier>{c58a8a71-f100-4f4b-942d-4fd0ab192027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{d89734dc-e9c0-47b4-9920-84fadb968c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quaternion">
+      <UniqueIdentifier>{4f7bbe7b-f6fd-48a2-9c39-fdc370396dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{31e866d8-3f4b-452f-a371-9a8599bc10c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lfv">
+      <UniqueIdentifier>{7e3b2158-2349-4a93-9fd5-c2ed446d6d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common_lua">
+      <UniqueIdentifier>{fe406180-fd0e-4af8-8311-d6c34d4c8a40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wrap\wrap.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="console\console.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="script\script.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lcode.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lctype.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldebug.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldo.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lfunc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lgc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llex.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lmem.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopcodes.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lparser.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lprefix.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstring.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltable.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lundump.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lvm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lzio.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="mod\mod.h">
+      <Filter>mod</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input_code.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input_const.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\win\wrap_win_key.h">
+      <Filter>wrap\win</Filter>
+    </ClInclude>
+    <ClInclude Include="hit\hit.h">
+      <Filter>hit</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_private.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="record\record.h">
+      <Filter>record</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene_lua.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\readnode.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="flag\flag.h">
+      <Filter>flag</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_lua.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\io.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\array.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\link.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\vec.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vec_lua.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\obj.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\type.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\fp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="path\path.h">
+      <Filter>path</Filter>
+    </ClInclude>
+    <ClInclude Include="path\path_lua.h">
+      <Filter>path</Filter>
+    </ClInclude>
+    <ClInclude Include="path\path_private.h">
+      <Filter>path</Filter>
+    </ClInclude>
+    <ClInclude Include="hit\hit_lua.h">
+      <Filter>hit</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="hit\hull.h">
+      <Filter>hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\qua.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion\qua_lua.h">
+      <Filter>quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\convex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\edge.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="hit\hit_private.h">
+      <Filter>hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\convex_sum_lookup.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\convex_graphs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\pair.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="record\pairs.h">
+      <Filter>record</Filter>
+    </ClInclude>
+    <ClInclude Include="record\record_private.h">
+      <Filter>record</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\json.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\json_ext.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene_private.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\tree.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\mark.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\poly.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\pool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="render\palette.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\texture.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\mesh.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\regs.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\audio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\audio_private.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\audio_lua.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\vmath.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="console\option.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\glengine.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua_fake_vector\lfv.h">
+      <Filter>lfv</Filter>
+    </ClInclude>
+    <ClInclude Include="path\path_ticket.h">
+      <Filter>path</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_world_template.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_model_pass_template.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GauntCommon\spline.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common_lua\spline_lua.h">
+      <Filter>common_lua</Filter>
+    </ClInclude>
+    <ClInclude Include="common_lua\common_lua.h">
+      <Filter>common_lua</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\win\wglengine.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wrap\win\wrap_win.cpp">
+      <Filter>wrap\win</Filter>
+    </ClCompile>
+    <ClCompile Include="console\console.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="script\script.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lapi.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lctype.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmathlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lopcodes.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltablib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="mod\mod.cpp">
+      <Filter>mod</Filter>
+    </ClCompile>
+    <ClCompile Include="input\input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\win\wrap_win_gl.cpp">
+      <Filter>wrap\win</Filter>
+    </ClCompile>
+    <ClCompile Include="hit\hit.cpp">
+      <Filter>hit</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_world.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="record\record.cpp">
+      <Filter>record</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcorolib.c">
+      <Filter>lua\debuglib</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.c">
+      <Filter>lua\debuglib</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loadlib.c">
+      <Filter>lua\debuglib</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.c">
+      <Filter>lua\debuglib</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loslib.c">
+      <Filter>lua\debuglib</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\linit.c">
+      <Filter>lua\debuglib</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lutf8lib.c">
+      <Filter>lua\debuglib</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_world.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="flag\flag.cpp">
+      <Filter>flag</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_model_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_palette.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_image_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_light_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_shader.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_texture.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\io.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\vec.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="vector\vec_lua.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\math.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\obj.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_mesh.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="path\path.cpp">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\resource.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion\qua_lua.cpp">
+      <Filter>quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\qua.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\convex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\edge.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="hit\hit_hull.cpp">
+      <Filter>hit</Filter>
+    </ClCompile>
+    <ClCompile Include="hit\hit_response.cpp">
+      <Filter>hit</Filter>
+    </ClCompile>
+    <ClCompile Include="hit\hit_tree_test.cpp">
+      <Filter>hit</Filter>
+    </ClCompile>
+    <ClCompile Include="hit\hit_hull_test.cpp">
+      <Filter>hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\convex_graphs.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_composition_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_line_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="record\record_pairs.cpp">
+      <Filter>record</Filter>
+    </ClCompile>
+    <ClCompile Include="record\record_save.cpp">
+      <Filter>record</Filter>
+    </ClCompile>
+    <ClCompile Include="record\record_load.cpp">
+      <Filter>record</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\json.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_entity.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_entity_lua.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_bulb.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_camera.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_enttype.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_light.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_mesh_extra.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_restore_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_options.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\poly.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_overlay.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_glass_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_voice.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_sound.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_sky.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_world_lua.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GauntCommon\vmath.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_vis.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="console\console_option.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_light_spot_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_timer.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\glengine.cpp">
+      <Filter>wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua_fake_vector\lfv.c">
+      <Filter>lfv</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_curve.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="record\record_edit.cpp">
+      <Filter>record</Filter>
+    </ClCompile>
+    <ClCompile Include="path\path_flight_map.cpp">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="path\path_flight_navigator.cpp">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="path\path_flight_search.cpp">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="path\path_ticket.cpp">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_world_glass_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_anti_aliasing_pass.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_fog.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="common_lua\common_lua.cpp">
+      <Filter>common_lua</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_nolib.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

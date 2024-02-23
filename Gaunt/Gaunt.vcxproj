@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStatic|Win32">
+      <Configuration>ReleaseStatic</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ScriptDebug|Win32">
+      <Configuration>ScriptDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GauntCommon\array.h" />
+    <ClInclude Include="..\GauntCommon\convex.h" />
+    <ClInclude Include="..\GauntCommon\convex_graphs.h" />
+    <ClInclude Include="..\GauntCommon\convex_sum_lookup.h" />
+    <ClInclude Include="..\GauntCommon\edge.h" />
+    <ClInclude Include="..\GauntCommon\fp.h" />
+    <ClInclude Include="..\GauntCommon\io.h" />
+    <ClInclude Include="..\GauntCommon\json.h" />
+    <ClInclude Include="..\GauntCommon\json_ext.h" />
+    <ClInclude Include="..\GauntCommon\link.h" />
+    <ClInclude Include="..\GauntCommon\mark.h" />
+    <ClInclude Include="..\GauntCommon\math.h" />
+    <ClInclude Include="..\GauntCommon\obj.h" />
+    <ClInclude Include="..\GauntCommon\pair.h" />
+    <ClInclude Include="..\GauntCommon\poly.h" />
+    <ClInclude Include="..\GauntCommon\pool.h" />
+    <ClInclude Include="..\GauntCommon\qua.h" />
+    <ClInclude Include="..\GauntCommon\spline.h" />
+    <ClInclude Include="..\GauntCommon\tree.h" />
+    <ClInclude Include="..\GauntCommon\type.h" />
+    <ClInclude Include="..\GauntCommon\vec.h" />
+    <ClInclude Include="..\GauntCommon\vmath.h" />
+    <ClInclude Include="..\lua_fake_vector\lfv.h" />
+    <ClInclude Include="audio\audio.h" />
+    <ClInclude Include="audio\audio_lua.h" />
+    <ClInclude Include="audio\audio_private.h" />
+    <ClInclude Include="common_lua\common_lua.h" />
+    <ClInclude Include="common_lua\spline_lua.h" />
+    <ClInclude Include="console\console.h" />
+    <ClInclude Include="console\option.h" />
+    <ClInclude Include="flag\flag.h" />
+    <ClInclude Include="gui\gui.h" />
+    <ClInclude Include="hit\hit.h" />
+    <ClInclude Include="hit\hit_lua.h" />
+    <ClInclude Include="hit\hit_private.h" />
+    <ClInclude Include="hit\hull.h" />
+    <ClInclude Include="input\input_code.h" />
+    <ClInclude Include="input\input.h" />
+    <ClInclude Include="input\input_const.h" />
+    <ClInclude Include="lua\lapi.h" />
+    <ClInclude Include="lua\lauxlib.h" />
+    <ClInclude Include="lua\lcode.h" />
+    <ClInclude Include="lua\lctype.h" />
+    <ClInclude Include="lua\ldebug.h" />
+    <ClInclude Include="lua\ldo.h" />
+    <ClInclude Include="lua\lfunc.h" />
+    <ClInclude Include="lua\lgc.h" />
+    <ClInclude Include="lua\llex.h" />
+    <ClInclude Include="lua\llimits.h" />
+    <ClInclude Include="lua\lmem.h" />
+    <ClInclude Include="lua\lobject.h" />
+    <ClInclude Include="lua\lopcodes.h" />
+    <ClInclude Include="lua\lparser.h" />
+    <ClInclude Include="lua\lprefix.h" />
+    <ClInclude Include="lua\lstate.h" />
+    <ClInclude Include="lua\lstring.h" />
+    <ClInclude Include="lua\ltable.h" />
+    <ClInclude Include="lua\ltm.h" />
+    <ClInclude Include="lua\lua.h" />
+    <ClInclude Include="lua\luaconf.h" />
+    <ClInclude Include="lua\lualib.h" />
+    <ClInclude Include="lua\lundump.h" />
+    <ClInclude Include="lua\lvm.h" />
+    <ClInclude Include="lua\lzio.h" />
+    <ClInclude Include="mod\mod.h" />
+    <ClInclude Include="path\path.h" />
+    <ClInclude Include="path\path_lua.h" />
+    <ClInclude Include="path\path_private.h" />
+    <ClInclude Include="path\path_ticket.h" />
+    <ClInclude Include="quaternion\qua_lua.h" />
+    <ClInclude Include="record\record.h" />
+    <ClInclude Include="record\pairs.h" />
+    <ClInclude Include="record\record_private.h" />
+    <ClInclude Include="render\mesh.h" />
+    <ClInclude Include="render\palette.h" />
+    <ClInclude Include="render\regs.h" />
+    <ClInclude Include="render\render.h" />
+    <ClInclude Include="render\render_lua.h" />
+    <ClInclude Include="render\render_model_pass_template.h" />
+    <ClInclude Include="render\render_private.h" />
+    <ClInclude Include="render\render_world_template.h" />
+    <ClInclude Include="render\texture.h" />
+    <ClInclude Include="resource\resource.h" />
+    <ClInclude Include="scene\readnode.h" />
+    <ClInclude Include="scene\scene.h" />
+    <ClInclude Include="scene\scene_lua.h" />
+    <ClInclude Include="scene\scene_private.h" />
+    <ClInclude Include="script\script.h" />
+    <ClInclude Include="vector\vec_lua.h" />
+    <ClInclude Include="wrap\glengine.h" />
+    <ClInclude Include="wrap\win\wglengine.h" />
+    <ClInclude Include="wrap\win\wrap_win_key.h" />
+    <ClInclude Include="wrap\wrap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GauntCommon\convex.cpp" />
+    <ClCompile Include="..\GauntCommon\convex_graphs.cpp" />
+    <ClCompile Include="..\GauntCommon\edge.cpp" />
+    <ClCompile Include="..\GauntCommon\io.cpp" />
+    <ClCompile Include="..\GauntCommon\json.cpp" />
+    <ClCompile Include="..\GauntCommon\math.cpp" />
+    <ClCompile Include="..\GauntCommon\obj.cpp" />
+    <ClCompile Include="..\GauntCommon\poly.cpp" />
+    <ClCompile Include="..\GauntCommon\qua.cpp" />
+    <ClCompile Include="..\GauntCommon\vec.cpp" />
+    <ClCompile Include="..\GauntCommon\vmath.cpp" />
+    <ClCompile Include="..\lua_fake_vector\lfv.c" />
+    <ClCompile Include="audio\audio.cpp" />
+    <ClCompile Include="audio\audio_nolib.cpp" />
+    <ClCompile Include="audio\audio_sound.cpp" />
+    <ClCompile Include="audio\audio_voice.cpp" />
+    <ClCompile Include="common_lua\common_lua.cpp" />
+    <ClCompile Include="console\console.cpp" />
+    <ClCompile Include="console\console_option.cpp" />
+    <ClCompile Include="flag\flag.cpp" />
+    <ClCompile Include="gui\gui.cpp" />
+    <ClCompile Include="hit\hit.cpp" />
+    <ClCompile Include="hit\hit_hull.cpp" />
+    <ClCompile Include="hit\hit_hull_test.cpp" />
+    <ClCompile Include="hit\hit_response.cpp" />
+    <ClCompile Include="hit\hit_tree_test.cpp" />
+    <ClCompile Include="input\input.cpp" />
+    <ClCompile Include="lua\lapi.c" />
+    <ClCompile Include="lua\lauxlib.c" />
+    <ClCompile Include="lua\lbaselib.c" />
+    <ClCompile Include="lua\lcode.c" />
+    <ClCompile Include="lua\lcorolib.c" />
+    <ClCompile Include="lua\lctype.c" />
+    <ClCompile Include="lua\ldblib.c" />
+    <ClCompile Include="lua\ldebug.c" />
+    <ClCompile Include="lua\ldo.c" />
+    <ClCompile Include="lua\ldump.c" />
+    <ClCompile Include="lua\lfunc.c" />
+    <ClCompile Include="lua\lgc.c" />
+    <ClCompile Include="lua\linit.c" />
+    <ClCompile Include="lua\liolib.c" />
+    <ClCompile Include="lua\llex.c" />
+    <ClCompile Include="lua\lmathlib.c" />
+    <ClCompile Include="lua\lmem.c" />
+    <ClCompile Include="lua\loadlib.c" />
+    <ClCompile Include="lua\lobject.c" />
+    <ClCompile Include="lua\lopcodes.c" />
+    <ClCompile Include="lua\loslib.c" />
+    <ClCompile Include="lua\lparser.c" />
+    <ClCompile Include="lua\lstate.c" />
+    <ClCompile Include="lua\lstring.c" />
+    <ClCompile Include="lua\lstrlib.c" />
+    <ClCompile Include="lua\ltable.c" />
+    <ClCompile Include="lua\ltablib.c" />
+    <ClCompile Include="lua\ltm.c" />
+    <ClCompile Include="lua\lundump.c" />
+    <ClCompile Include="lua\lutf8lib.c" />
+    <ClCompile Include="lua\lvm.c" />
+    <ClCompile Include="lua\lzio.c" />
+    <ClCompile Include="mod\mod.cpp" />
+    <ClCompile Include="path\path.cpp" />
+    <ClCompile Include="path\path_flight_map.cpp" />
+    <ClCompile Include="path\path_flight_navigator.cpp" />
+    <ClCompile Include="path\path_flight_search.cpp" />
+    <ClCompile Include="path\path_ticket.cpp" />
+    <ClCompile Include="quaternion\qua_lua.cpp" />
+    <ClCompile Include="record\record.cpp" />
+    <ClCompile Include="record\record_edit.cpp" />
+    <ClCompile Include="record\record_load.cpp" />
+    <ClCompile Include="record\record_pairs.cpp" />
+    <ClCompile Include="record\record_save.cpp" />
+    <ClCompile Include="render\render.cpp" />
+    <ClCompile Include="render\render_anti_aliasing_pass.cpp" />
+    <ClCompile Include="render\render_composition_pass.cpp" />
+    <ClCompile Include="render\render_glass_pass.cpp" />
+    <ClCompile Include="render\render_image_pass.cpp" />
+    <ClCompile Include="render\render_curve.cpp" />
+    <ClCompile Include="render\render_light_pass.cpp" />
+    <ClCompile Include="render\render_light_spot_pass.cpp" />
+    <ClCompile Include="render\render_line_pass.cpp" />
+    <ClCompile Include="render\render_mesh.cpp" />
+    <ClCompile Include="render\render_mesh_extra.cpp" />
+    <ClCompile Include="render\render_model_pass.cpp" />
+    <ClCompile Include="render\render_options.cpp" />
+    <ClCompile Include="render\render_palette.cpp" />
+    <ClCompile Include="render\render_timer.cpp" />
+    <ClCompile Include="render\render_vis.cpp" />
+    <ClCompile Include="render\render_restore_pass.cpp" />
+    <ClCompile Include="render\render_shader.cpp" />
+    <ClCompile Include="render\render_sky.cpp" />
+    <ClCompile Include="render\render_texture.cpp" />
+    <ClCompile Include="render\render_world.cpp" />
+    <ClCompile Include="render\render_world_glass_pass.cpp" />
+    <ClCompile Include="resource\resource.cpp" />
+    <ClCompile Include="scene\scene.cpp" />
+    <ClCompile Include="scene\scene_bulb.cpp" />
+    <ClCompile Include="scene\scene_camera.cpp" />
+    <ClCompile Include="scene\scene_entity.cpp" />
+    <ClCompile Include="scene\scene_entity_lua.cpp" />
+    <ClCompile Include="scene\scene_enttype.cpp" />
+    <ClCompile Include="scene\scene_fog.cpp" />
+    <ClCompile Include="scene\scene_light.cpp" />
+    <ClCompile Include="scene\scene_overlay.cpp" />
+    <ClCompile Include="scene\scene_world.cpp" />
+    <ClCompile Include="scene\scene_world_lua.cpp" />
+    <ClCompile Include="script\script.cpp" />
+    <ClCompile Include="vector\vec_lua.cpp" />
+    <ClCompile Include="wrap\glengine.cpp" />
+    <ClCompile Include="wrap\win\wrap_win_gl.cpp" />
+    <ClCompile Include="wrap\win\wrap_win.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CAF3616C-9DD3-4292-993D-1F26112FED24}</ProjectGuid>
+    <RootNamespace>Gaunt</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ScriptDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ScriptDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ScriptDebug|Win32'">
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_MBCS;ENGINE_DEBUG;SCR_UNSAFE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;lua;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Opengl32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;lua;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Opengl32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;lua;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Opengl32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ScriptDebug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MBCS;SCR_UNSAFE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;lua;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Opengl32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

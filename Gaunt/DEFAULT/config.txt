@@ -1,0 +1,58 @@
+bind THROTTLE w
+bind BRAKE SPACE
+bind ROLL_CCW a
+bind ROLL_CW d
+bind PITCH_UP UP_ARROW
+bind PITCH_DOWN DOWN_ARROW
+bind YAW_LEFT LEFT_ARROW
+bind YAW_RIGHT RIGHT_ARROW
+bind LOOK CTRL
+bind LOOK_BACK SHIFT
+bind LOOK_DRIFT ALT
+bind FIRE_ONE MOUSE_BUTTON_0
+bind NO_GUN 0
+bind MINIGUN 1
+bind ROCKET 2
+bind QUICKLOAD F9
+bind FREE_CAM_FORWARD w
+bind FREE_CAM_BACK s
+bind FREE_CAM_LEFT a
+bind FREE_CAM_RIGHT d
+bind FREE_CAM_UP SPACE
+bind FREE_CAM_DOWN CTRL
+bind DEBUG_CONTINUE F5
+bind DEBUG_STEP F10
+
+bind NEW_CAM MOUSE_BUTTON_1 // FIXME TEMP
+
+bind EDITOR_CONFIRM MOUSE_BUTTON_0
+bind EDITOR_CANCEL END
+bind EDITOR_INCREASE MOUSE_WHEEL_UP
+bind EDITOR_DECREASE MOUSE_WHEEL_DOWN
+bind EDITOR_CREATE_BULB b
+bind EDITOR_DELETE DELETE
+bind EDITOR_MOVE g
+bind EDITOR_ROTATE t
+bind EDITOR_X_AXIS x
+bind EDITOR_Y_AXIS y
+bind EDITOR_Z_AXIS z
+bind EDITOR_INTENSITY i
+bind EDITOR_SUB_PALETTE u
+bind EDITOR_COLOR_SMOOTH n
+bind EDITOR_COLOR_PRIORITY m
+bind EDITOR_RADIUS r
+bind EDITOR_EXPONENT f
+bind EDITOR_OUTER_ANGLE o
+bind EDITOR_INNER_ANGLE l
+
+video 1920 1080 true false
+raw_mouse true
+lock_cursor true
+con_debug 1
+con_show_mini 0 // FIXME TEMP
+rnd_check_errors 1
+//rnd_force_low_light_buffer 1
+	// FIXME: remove for release; GTX 260 reverts to software rendering when blending 16-bit buffer
+aud_master_volume 0.0
+wrp_max_frame_rate 60
+wrp_var_tick_rate 1

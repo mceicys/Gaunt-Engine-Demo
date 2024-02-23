@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gaunt", "Gaunt.vcxproj", "{CAF3616C-9DD3-4292-993D-1F26112FED24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		ReleaseStatic|Win32 = ReleaseStatic|Win32
+		ScriptDebug|Win32 = ScriptDebug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.Debug|Win32.Build.0 = Debug|Win32
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.Release|Win32.ActiveCfg = Release|Win32
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.Release|Win32.Build.0 = Release|Win32
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.ReleaseStatic|Win32.ActiveCfg = ReleaseStatic|Win32
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.ReleaseStatic|Win32.Build.0 = ReleaseStatic|Win32
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.ScriptDebug|Win32.ActiveCfg = ScriptDebug|Win32
+		{CAF3616C-9DD3-4292-993D-1F26112FED24}.ScriptDebug|Win32.Build.0 = ScriptDebug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
